@@ -1,0 +1,566 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=\, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar nav-section navbar-expand-lg fixed-top py-3">
+            <div class="container ">
+                <a class="navbar-brand " href="#">
+                    <img src="images/logo-white.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto ">
+                        <li class="nav-item">
+                            <a data-link="home" class="nav-link fs-6   pointer fff px-4 active" aria-current="page"
+                                href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about" data-link="about" class="nav-link  fs-6 pointer fff px-4">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="team" data-link="team" class="nav-link fs-6 pointer fff px-4">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="review" data-link="review" class="nav-link  fs-6 pointer fff px-4">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services" data-link="services" class="nav-link  fs-6 pointer fff px-4">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact" data-link="contact" class="nav-link  fs-6 pointer fff px-4">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="form" data-link="form" class="nav-link fs-6 pointer fff px-4">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="icons d-flex justifiy-content-center align-items-center ">
+                        <div><i class="px-2 fff fs-6 tran-3s pointer fa-brands fa-twitter"></i></div>
+                        <div><i class="px-2 fff fs-6 tran-3s pointer fa-brands fa-facebook"></i></div>
+                        <div><i class="px-2 fff fs-6 tran-3s pointer fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="home" data-link="home">
+            <div class="overlay d-flex justifiy-content-center align-items-center">
+                <div class="container">
+                    <div class="caption fff ">
+                        <h1 class="text-center w700 fs6">We build
+                            <br> great brands.
+                        </h1>
+                    </div>
+                    <div class="icon-setting py-2 px-3 bg-black tran-3s">
+                        <i id="gear" class="fa-solid fa-gear fff"></i>
+                    </div>
+                    <div class="skew-icon fa-bounce">
+                        <span></span>
+                    </div>
+                    <div id="main-setting"
+                        class="main-settings bg-black fff d-none column p-3 rounded align-items-center">
+                        <div class="colors tran-3s">
+                            <h3 class="rem1">Colors</h3>
+                        </div>
+                        <div class="bgs py-2 tran-3s">
+                            <h3 class="rem1">Bgs</h3>
+                        </div>
+                        <button class="rem1 bg-danger rounded fff reset">Reset</button>
+                    </div>
+
+                    <button id="up" class="btn fff">Up</button>
+                </div>
+            </div>
+        </section>
+        <section class="about" data-link="about">
+            <div class="container">
+                <div class="header text-center column d-flex justifiy-content-center align-items-center">
+                    <h1 class="position-relative h1-size h1-color">A</h1>
+                    <h2 class="position-relative w700 h2-top h2-size">About Us</h2>
+                    <p class="text-muted fs-5 p-header-w margin-top ">Pellentesque elementum libero enim, eget
+                        gravida
+                        nunc laoreet et.
+                        Nullam ac
+                        enim auctor,
+                        fringilla risus at, imperdiet
+                        turpis. Pellentesque elementum libero enim.</p>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6 mt-2">
+                        <p class="text-secondary-emphasis">Pellentesque vel elit egestas, pretium est ac, convallis
+                            orci. Vivamus sem
+                            nisl, tristique
+                            vel fringilla vitae,
+                            efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida
+                            pulvinar. Phasellus vel eros
+                            porta, blandit dui ac, viverra felis.</p>
+                        <p class="my-4 text-secondary-emphasis">Nunc placerat iaculis pulvinar. Nullam auctor mauris sed
+                            urna posuere volutpat.
+                            Mauris ut dui
+                            sit amet elit fermentum
+                            fermentum. Fusce tincidunt diam at bibendum porta.</p>
+                        <p class="text-secondary-emphasis">Aliquam nunc felis, sagittis eu purus non, interdum vehicula
+                            urna. Vivamus congue diam
+                            sapien, eu pellentesque ipsum
+                            ultricies quis.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info d-flex justify-content-between">
+                            <p class="name my-2 w700">Branding</p>
+                            <p class="my-2">85%</p>
+                        </div>
+                        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+
+                        <div class="info d-flex justify-content-between">
+                            <p class="name my-2 w700">Web Design</p>
+                            <p class="my-2">95%</p>
+                        </div>
+                        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%"></div>
+                        </div>
+                        <div class="info d-flex justify-content-between">
+                            <p class="name my-2 w700">Graghic Design</p>
+                            <p class="my-2">90%</p>
+                        </div>
+                        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                        <div class="info d-flex justify-content-between">
+                            <p class="name my-2 w700">Development</p>
+                            <p class="my-2">70%</p>
+                        </div>
+                        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team" data-link="team">
+            <div class="container">
+                <div class="header text-center column d-flex justifiy-content-center align-items-center">
+                    <h1 class="position-relative h1-size h1-color">O</h1>
+                    <h2 class="position-relative w700 h2-top h2-size">Our Team</h2>
+                    <p class="text-muted fs-5 p-header-w margin-top ">Pellentesque elementum libero enim, eget
+                        gravida
+                        nunc laoreet et.
+                        Nullam ac
+                        enim auctor,
+                        fringilla risus at, imperdiet
+                        turpis. Pellentesque elementum libero enim.</p>
+                </div>
+                <div class="row my-5">
+                    <div class="col-lg-3 col-sm-12 col-md-12 box">
+                        <div class="content position-relative overflow-hidden rounded tran-5s ">
+                            <div class="img "><img class="w-100 tran-5s" src="images/member-1.jpg" alt=""></div>
+                            <div
+                                class="overlay d-flex align-items-center justify-content-center w-100 h-100 position-absolute icons tran-5s">
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-twitter"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-facebook"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-instagram"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h5 class="text-center pt-2">Michael Broad</h5>
+                            <p class="text-muted text-center">Web Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-md-12 box">
+                        <div class="content position-relative overflow-hidden rounded tran-5s ">
+                            <div class="img "><img class="w-100 tran-5s" src="images/member-2.jpg" alt=""></div>
+                            <div
+                                class="overlay d-flex align-items-center justify-content-center w-100 h-100 position-absolute icons tran-5s">
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-twitter"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-facebook"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-instagram"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h5 class="text-center pt-2">Michael Broad</h5>
+                            <p class="text-muted text-center">Web Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-md-12 box">
+                        <div class="content position-relative overflow-hidden rounded tran-5s ">
+                            <div class="img "><img class="w-100 tran-5s" src="images/member-3.jpg" alt=""></div>
+                            <div
+                                class="overlay d-flex align-items-center justify-content-center w-100 h-100 position-absolute icons tran-5s">
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-twitter"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-facebook"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-instagram"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h5 class="text-center pt-2">Michael Broad</h5>
+                            <p class="text-muted text-center">Web Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-md-12 box">
+                        <div class="content position-relative overflow-hidden rounded tran-5s ">
+                            <div class="img "><img class="w-100 tran-5s" src="images/member-4.jpg" alt=""></div>
+                            <div
+                                class="overlay d-flex align-items-center justify-content-center w-100 h-100 position-absolute icons tran-5s">
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-twitter"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-facebook"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-instagram"></i>
+                                <i class="px-3 fff fs-5  pointer fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h5 class="text-center pt-2">Michael Broad</h5>
+                            <p class="text-muted text-center">Web Designer</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="th-contact d-flex justify-content-around my-5 align-items-center ">
+                    <p class="fs-1">Do you have any ideas?</p>
+                    <button class="btn border-none fff tran-5s">Contact Us</button>
+                </div>
+            </div>
+        </section>
+        <section class="services" data-link="services">
+            <div class="container">
+                <div class="header text-center column d-flex justifiy-content-center align-items-center">
+                    <h1 class="position-relative h1-size h1-color">S</h1>
+                    <h2 class="position-relative w700 h2-top h2-size">Services</h2>
+                    <p class="text-muted fs-5 p-header-w margin-top ">Pellentesque elementum libero enim, eget
+                        gravida
+                        nunc laoreet et.
+                        Nullam ac
+                        enim auctor,
+                        fringilla risus at, imperdiet
+                        turpis. Pellentesque elementum libero enim.</p>
+                </div>
+                <div class="row my-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+                        <div class="box d-flex p-2 ">
+                            <i class="fa-solid fa-laptop fs-3 "></i>
+                            <div class="details d-flex column ms-3">
+                                <h3 class="tran-5s fs-5">Responsive Layout</h3>
+                                <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet
+                                    et ius
+                                    utroque dissentias ut.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="review" data-link="review">
+            <div class="container">
+                <div class="header text-center column d-flex justifiy-content-center align-items-center">
+                    <h1 class="position-relative h1-size h1-color">C</h1>
+                    <h2 class="position-relative w700 h2-top h2-size">Client Reviews</h2>
+                    <p class="text-muted fs-5 p-header-w margin-top ">Pellentesque elementum libero enim, eget
+                        gravida
+                        nunc laoreet et.
+                        Nullam ac
+                        enim auctor,
+                        fringilla risus at, imperdiet
+                        turpis. Pellentesque elementum libero enim.</p>
+                </div>
+                <div class="image-slider p-5">
+                    <div class="row mb-5">
+                        <div class="col-2">
+                            <div class="box tran-3s pointer opacity-50">
+                                <div class="image overflow-hidden">
+                                    <img class="w-100 rounded-circle" src="images/client-1.png" alt="">
+                                </div>
+                                <h4 class="text-center fs-5 w-100">Sam Dowsy</h4>
+                                <p class="text-center fs-9">From Globex</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="box tran-3s pointer opacity-50">
+                                <div class="image overflow-hidden">
+                                    <img class="w-100 rounded-circle" src="images/client-2.png" alt="">
+                                </div>
+                                <h4 class="text-center fs-5 w-100">Alex Dowsy</h4>
+                                <p class="text-center fs-9">From Globex</p>
+                            </div>
+                        </div>
+                        <div class="col-2 ">
+                            <div class="box tran-3s active pointer opacity-50">
+                                <div class="image overflow-hidden">
+                                    <img class="w-100 rounded-circle" src="images/client-3.png" alt="">
+                                </div>
+                                <h4 class="text-center fs-5 w-100">John Dowsy</h4>
+                                <p class="text-center fs-9">From Globex</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="box tran-3s pointer opacity-50">
+                                <div class="image overflow-hidden">
+                                    <img class="w-100 rounded-circle" src="images/client-4.png" alt="">
+                                </div>
+                                <h4 class="text-center fs-5 w-100">Sami Dowsy</h4>
+                                <p class="text-center fs-9">From Globex</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="box tran-3s pointer opacity-50">
+                                <div class="image overflow-hidden">
+                                    <img class="w-100 rounded-circle" src="images/client-5.png" alt="">
+                                </div>
+                                <h4 class="text-center fs-5 w-100">Lily Dowsy</h4>
+                                <p class="text-center fs-9">From Globex</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="box tran-3s pointer opacity-50">
+                                <div class="image overflow-hidden">
+                                    <img class="w-100 rounded-circle" src="images/client-6.png" alt="">
+                                </div>
+                                <h4 class="text-center fs-5 w-100">David Dowsy</h4>
+                                <p class="text-center fs-9">From Globex</p>
+                            </div>
+                        </div>
+                    </div>
+                    <q class="fs-4 pt-4 text-black fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reiciendis
+                        ad
+                        itaque
+                        cum at
+                        nemo quod nesciunt ex praesentium iusto necessitatibus. Pariatur maiores dignissimos vero alias
+                        fuga quibusdam cum, et exercitationem.</q>
+
+                </div>
+        </section>
+        <section class="form" data-link="form">
+            <div class="container">
+                <div class="header text-center column d-flex justifiy-content-center align-items-center">
+                    <h1 class="position-relative h1-size h1-color">G</h1>
+                    <h2 class="position-relative w700 h2-top h2-size">Get in Touch</h2>
+                    <p class="text-muted fs-5 p-header-w margin-top ">Pellentesque elementum libero enim, eget
+                        gravida
+                        nunc laoreet et.
+                        Nullam ac
+                        enim auctor,
+                        fringilla risus at, imperdiet
+                        turpis. Pellentesque elementum libero enim.</p>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6 my-5">
+                        <h1>Get answers and advices from professional consultants.</h1>
+                        <div class="boxes my-5">
+                            <div class="box d-flex fs-2 position-relative">
+                                <i class=" fa-solid fa-message"></i>
+                                <div class="info d-flex column ps-3 ">
+                                    <h5 class="fs-4 tran-3s">Address</h5>
+                                    <p class="fs-6 text-muted">1650 Lombard Street, San Francisco, CA 94123</p>
+                                </div>
+                            </div>
+                            <div class="box my-5 d-flex fs-2 position-relative">
+                                <i class="fa-solid fa-mobile"></i>
+                                <div class="info d-flex column ps-3 ">
+                                    <h5 class="fs-4 tran-3s">Phone</h5>
+                                    <p class="fs-6 text-muted">1650 Lombard Street, San Francisco, CA 94123</p>
+                                </div>
+                            </div>
+                            <div class="box d-flex fs-2 position-relative">
+                                <i class="fa-solid fa-signal"></i>
+                                <div class="info d-flex column ps-3 ">
+                                    <h5 class="fs-4 tran-3s">Say something</h5>
+                                    <p class="fs-6 text-muted">1650 Lombard Street, San Francisco, CA 94123</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-5 py-2">
+                        <form action="">
+                            <input type="text" name="name" placeholder="Name" class="form-control p-3">
+                            <input type="email" name="email" placeholder="Email" class="form-control p-3 my-4">
+                            <input type="text" name="phone" placeholder="Phone" class="form-control p-3">
+                            <textarea name="message" placeholder="message"
+                                class="h-25 w-100 form-control my-4"></textarea>
+                            <button class="btn fff tran-5s px-4 py-3">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" data-link="contact">
+            <i class="fa-solid fa-chevron-up text-white position-absolute start-50  translate-middle-x top-0  fs-5"></i>
+            <div class="container">
+                <div class="row  my-2">
+                    <div class="col-md-12">
+                        <div class="logo text-center my-2">
+                            <img src="images/icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-4 text-center">
+                        <div class="box text-white fs-9">
+                            <h3 class="fs-5">Contact Info</h3>
+                            <p class="fff  tran-3s pt-2">1650 Lombard Street,</p>
+                            <p class="fff tran-3s fs-6">San Francisco, CA 94123</p>
+                            <p class="fff tran-3s fs-6 pt-3">+1 (415) 876-3250</p>
+                            <p class="fff tran-3s fs-6">email@sitename.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-4 text-center">
+                        <div class="box text-white fs-9">
+                            <h3 class="fs-5">Usefull Links</h3>
+                            <p class="fff  tran-3s pt-2">1650 Lombard Street,</p>
+                            <p class="fff tran-3s fs-6">San Francisco, CA 94123</p>
+                            <p class="fff tran-3s fs-6 pt-3">+1 (415) 876-3250</p>
+                            <p class="fff tran-3s fs-6">email@sitename.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-4 text-center">
+                        <div class="box text-white fs-9">
+                            <h3 class="fs-5">Resent Posts</h3>
+                            <p class="fff  tran-3s pt-2">1650 Lombard Street,</p>
+                            <p class="fff tran-3s fs-6">San Francisco, CA 94123</p>
+                            <p class="fff tran-3s fs-6 pt-3">+1 (415) 876-3250</p>
+                            <p class="fff tran-3s fs-6">email@sitename.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-4 text-center">
+                        <div class="box text-white fs-9">
+                            <h3 class="fs-5">Popular Tags</h3>
+                            <p class="fff  tran-3s pt-2">1650 Lombard Street,</p>
+                            <p class="fff tran-3s fs-6">San Francisco, CA 94123</p>
+                            <p class="fff tran-3s fs-6 pt-3">+1 (415) 876-3250</p>
+                            <p class="fff tran-3s fs-6">email@sitename.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-black p-4">
+            <div class="container d-flex justify-content-around align-items-center">
+                <div class="icons d-flex">
+                    <div><i class="px-3 fff fs-6 tran-3s pointer fa-brands fa-twitter"></i></div>
+                    <div><i class="px-3 fff fs-6 tran-3s pointer fa-brands fa-facebook"></i></div>
+                    <div><i class="px-3 fff fs-6 tran-3s pointer fa-brands fa-instagram"></i></div>
+                    <div><i class="px-3 fff fs-6 tran-3s pointer fa-brands fa-google"></i></div>
+                    <div><i class="px-3 fff fs-6 tran-3s pointer fa-brands fa-linkedin"></i></div>
+                </div>
+                <p class="fff"> Copyright © 2020 <span
+                        class="fw-bold text-white fs-5 ps-1 a tran-3s pointer">Angora</span></p>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
